@@ -25,8 +25,8 @@ time_interval = '15m'  # 间隔运行时间，不能低于5min
 
 exchange = ccxt.okex()  # 创建交易所，此处为okex交易所
 # 此处加上自己的apikey和secret，都需要开通交易权限
-exchange.apiKey = '70ad76e0-51a0-4f07-bcb6-6fe1ac0d7db7'
-exchange.secret = '210F59096A7C7C6B9794DB3F14D4E971'
+exchange.apiKey = '***'
+exchange.secret = '***'
 
 symbol = 'OKB/USDT'  # 交易品种
 base_coin = symbol.split('/')[-1]
